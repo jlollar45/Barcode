@@ -44,7 +44,7 @@ final class ScannerVC: UIViewController {
             return
         }
         
-        previewLayer?.frame = view.layer.bounds
+        previewLayer.frame = view.layer.bounds
     }
     
     private func setupCaptureSession() {
